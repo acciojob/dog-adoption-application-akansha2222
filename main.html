@@ -8,15 +8,21 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form action="#" method="post">
+		<label for="name">Name</label>
 <input type = "text" id="name" placeholder="Name">
+		<label for="phone">Phone Number</label>
 	<input type = "text" id="phone" placeholder="Phone Number">
+		<label for="address">Address</label>
 	<input type = "text" id="address" placeholder="Address">
-	<label><input id="checkbox" type="checkbox" value="Value should be: "Have you ever lived with a Dog before?"">
-<select id ="multiSelect" >
+	<label for="checkbox">Have you ever lived with a Dog before?</label>
+		<input id="checkbox" type="checkbox" value="Value should be: "Have you ever lived with a Dog before?"">
+			<label for="multiSelect">Please select your preferred breeds</label>
+		<select id ="multiSelect" type="select" value="Make this as a multi-select box with at least 3 options">
 	<option>a</option>
 	<option>b</option>
 	<option>c</option></select>
+		
 		<input type="submit" id="submit" value="Submit">
 	</form>
 	
